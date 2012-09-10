@@ -1,183 +1,181 @@
-[ 81395.577] 
+[ 82176.098] 
 X.Org X Server 1.10.6
 Release Date: 2012-02-10
-[ 81395.577] X Protocol Version 11, Revision 0
-[ 81395.577] Build Operating System: sl6 2.6.32-220.13.1.el6.x86_64 
-[ 81395.577] Current Operating System: Linux akagi 2.6.34.13 #1 SMP Sat Sep 8 22:21:50 JST 2012 x86_64
-[ 81395.578] Kernel command line: ro root=UUID=62790101-b758-48a1-8e5a-804724f52d03 rd_MD_UUID=87e89f9b:c972bace:06e59257:9ac37b5a rd_MD_UUID=6855c6eb:21776911:f811fb26:5a41d52d rd_LVM_LV=vg_mutsu/LogVolSwap rd_NO_LUKS rd_NO_DM LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc KEYTABLE=us nomodeset crashkernel=128M
-[ 81395.578] Build Date: 20 June 2012  01:28:56PM
-[ 81395.578] Build ID: xorg-x11-server 1.10.6-1.sl6 
-[ 81395.578] Current version of pixman: 0.18.4
-[ 81395.578] 	Before reporting problems, check https://www.scientificlinux.org/maillists
+[ 82176.099] X Protocol Version 11, Revision 0
+[ 82176.099] Build Operating System: sl6 2.6.32-220.13.1.el6.x86_64 
+[ 82176.099] Current Operating System: Linux akagi 2.6.34.13 #1 SMP Sat Sep 8 22:21:50 JST 2012 x86_64
+[ 82176.099] Kernel command line: ro root=UUID=62790101-b758-48a1-8e5a-804724f52d03 rd_MD_UUID=87e89f9b:c972bace:06e59257:9ac37b5a rd_MD_UUID=6855c6eb:21776911:f811fb26:5a41d52d rd_LVM_LV=vg_mutsu/LogVolSwap rd_NO_LUKS rd_NO_DM LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc KEYTABLE=us nomodeset crashkernel=128M
+[ 82176.100] Build Date: 20 June 2012  01:28:56PM
+[ 82176.100] Build ID: xorg-x11-server 1.10.6-1.sl6 
+[ 82176.100] Current version of pixman: 0.18.4
+[ 82176.100] 	Before reporting problems, check https://www.scientificlinux.org/maillists
 	to make sure that you have the latest version.
-[ 81395.579] Markers: (--) probed, (**) from config file, (==) default setting,
+[ 82176.100] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[ 81395.579] (==) Log file: "/var/log/Xorg.0.log", Time: Mon Sep 10 18:50:09 2012
-[ 81395.580] (==) Using config file: "/etc/X11/xorg.conf"
-[ 81395.580] (==) ServerLayout "Layout0"
-[ 81395.580] (**) |-->Screen "VScreen" (0)
-[ 81395.580] (**) |   |-->Monitor "Monitor2"
-[ 81395.580] (**) |   |-->Device "Device0"
-[ 81395.580] (**) |-->Input Device "Keyboard0"
-[ 81395.580] (**) |-->Input Device "Mouse0"
-[ 81395.580] (**) Option "DontZoom" "true"
-[ 81395.580] (**) Option "Xinerama" "false"
-[ 81395.580] (==) Automatically adding devices
-[ 81395.580] (==) Automatically enabling devices
-[ 81395.580] (**) FontPath set to:
+[ 82176.101] (==) Log file: "/var/log/Xorg.0.log", Time: Mon Sep 10 19:03:10 2012
+[ 82176.101] (==) Using config file: "/etc/X11/xorg.conf"
+[ 82176.102] (==) ServerLayout "Layout0"
+[ 82176.102] (**) |-->Screen "VScreen" (0)
+[ 82176.102] (**) |   |-->Monitor "Monitor2"
+[ 82176.102] (**) |   |-->Device "Device0 (2nd)"
+[ 82176.102] (**) |-->Input Device "Keyboard0"
+[ 82176.102] (**) |-->Input Device "Mouse0"
+[ 82176.102] (**) Option "DontZoom" "true"
+[ 82176.102] (**) Option "Xinerama" "false"
+[ 82176.102] (==) Automatically adding devices
+[ 82176.102] (==) Automatically enabling devices
+[ 82176.102] (**) FontPath set to:
 	/usr/share/fonts/default/Type1,
 	catalogue:/etc/X11/fontpath.d,
 	built-ins
-[ 81395.580] (==) ModulePath set to "/usr/lib64/xorg/modules"
-[ 81395.580] (**) Extension "Composite" is disabled
-[ 81395.580] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
-[ 81395.580] (WW) Disabling Keyboard0
-[ 81395.580] (WW) Disabling Mouse0
-[ 81395.580] (II) Loader magic: 0x7d6d80
-[ 81395.580] (II) Module ABI versions:
-[ 81395.580] 	X.Org ANSI C Emulation: 0.4
-[ 81395.580] 	X.Org Video Driver: 10.0
-[ 81395.580] 	X.Org XInput driver : 12.2
-[ 81395.580] 	X.Org Server Extension : 5.0
-[ 81395.582] (--) PCI:*(0:2:0:0) 10de:0392:107d:2a52 rev 161, Mem @ 0xc3000000/16777216, 0xd0000000/268435456, 0xc2000000/16777216, I/O @ 0x00003000/128, BIOS @ 0x????????/131072
-[ 81395.582] (--) PCI: (0:3:0:0) 10de:0392:1462:0415 rev 161, Mem @ 0xc1000000/16777216, 0xe0000000/268435456, 0xc0000000/16777216, I/O @ 0x00002000/128, BIOS @ 0x????????/65536
-[ 81395.582] (II) LoadModule: "extmod"
-[ 81395.582] (II) Loading /usr/lib64/xorg/modules/extensions/libextmod.so
-[ 81395.582] (II) Module extmod: vendor="X.Org Foundation"
-[ 81395.582] 	compiled for 1.10.6, module version = 1.0.0
-[ 81395.582] 	Module class: X.Org Server Extension
-[ 81395.582] 	ABI class: X.Org Server Extension, version 5.0
-[ 81395.582] (II) Loading extension SELinux
-[ 81395.582] (II) Loading extension MIT-SCREEN-SAVER
-[ 81395.582] (II) Loading extension XFree86-VidModeExtension
-[ 81395.582] (II) Loading extension XFree86-DGA
-[ 81395.582] (II) Loading extension DPMS
-[ 81395.582] (II) Loading extension XVideo
-[ 81395.582] (II) Loading extension XVideo-MotionCompensation
-[ 81395.582] (II) Loading extension X-Resource
-[ 81395.582] (II) LoadModule: "dbe"
-[ 81395.582] (II) Loading /usr/lib64/xorg/modules/extensions/libdbe.so
-[ 81395.583] (II) Module dbe: vendor="X.Org Foundation"
-[ 81395.583] 	compiled for 1.10.6, module version = 1.0.0
-[ 81395.583] 	Module class: X.Org Server Extension
-[ 81395.583] 	ABI class: X.Org Server Extension, version 5.0
-[ 81395.583] (II) Loading extension DOUBLE-BUFFER
-[ 81395.583] (II) LoadModule: "glx"
-[ 81395.583] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
-[ 81395.590] (II) Module glx: vendor="NVIDIA Corporation"
-[ 81395.590] 	compiled for 4.0.2, module version = 1.0.0
-[ 81395.590] 	Module class: X.Org Server Extension
-[ 81395.590] (II) NVIDIA GLX Module  304.43  Sun Aug 19 20:34:01 PDT 2012
-[ 81395.591] (II) Loading extension GLX
-[ 81395.591] (II) LoadModule: "record"
-[ 81395.591] (II) Loading /usr/lib64/xorg/modules/extensions/librecord.so
-[ 81395.591] (II) Module record: vendor="X.Org Foundation"
-[ 81395.591] 	compiled for 1.10.6, module version = 1.13.0
-[ 81395.591] 	Module class: X.Org Server Extension
-[ 81395.591] 	ABI class: X.Org Server Extension, version 5.0
-[ 81395.591] (II) Loading extension RECORD
-[ 81395.591] (II) LoadModule: "dri"
-[ 81395.591] (II) Loading /usr/lib64/xorg/modules/extensions/libdri.so
-[ 81395.591] (II) Module dri: vendor="X.Org Foundation"
-[ 81395.591] 	compiled for 1.10.6, module version = 1.0.0
-[ 81395.591] 	ABI class: X.Org Server Extension, version 5.0
-[ 81395.591] (II) Loading extension XFree86-DRI
-[ 81395.591] (II) LoadModule: "dri2"
-[ 81395.591] (II) Loading /usr/lib64/xorg/modules/extensions/libdri2.so
-[ 81395.591] (II) Module dri2: vendor="X.Org Foundation"
-[ 81395.591] 	compiled for 1.10.6, module version = 1.2.0
-[ 81395.591] 	ABI class: X.Org Server Extension, version 5.0
-[ 81395.591] (II) Loading extension DRI2
-[ 81395.591] (II) LoadModule: "nvidia"
-[ 81395.592] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
-[ 81395.592] (II) Module nvidia: vendor="NVIDIA Corporation"
-[ 81395.592] 	compiled for 4.0.2, module version = 1.0.0
-[ 81395.592] 	Module class: X.Org Video Driver
-[ 81395.592] (II) NVIDIA dlloader X Driver  304.43  Sun Aug 19 20:15:32 PDT 2012
-[ 81395.592] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
-[ 81395.592] (--) using VT number 7
+[ 82176.102] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[ 82176.102] (**) Extension "Composite" is disabled
+[ 82176.102] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[ 82176.102] (WW) Disabling Keyboard0
+[ 82176.102] (WW) Disabling Mouse0
+[ 82176.102] (II) Loader magic: 0x7d6d80
+[ 82176.102] (II) Module ABI versions:
+[ 82176.102] 	X.Org ANSI C Emulation: 0.4
+[ 82176.102] 	X.Org Video Driver: 10.0
+[ 82176.102] 	X.Org XInput driver : 12.2
+[ 82176.102] 	X.Org Server Extension : 5.0
+[ 82176.103] (--) PCI:*(0:2:0:0) 10de:0392:107d:2a52 rev 161, Mem @ 0xc3000000/16777216, 0xd0000000/268435456, 0xc2000000/16777216, I/O @ 0x00003000/128, BIOS @ 0x????????/131072
+[ 82176.103] (--) PCI: (0:3:0:0) 10de:0392:1462:0415 rev 161, Mem @ 0xc1000000/16777216, 0xe0000000/268435456, 0xc0000000/16777216, I/O @ 0x00002000/128, BIOS @ 0x????????/65536
+[ 82176.103] (II) LoadModule: "extmod"
+[ 82176.104] (II) Loading /usr/lib64/xorg/modules/extensions/libextmod.so
+[ 82176.104] (II) Module extmod: vendor="X.Org Foundation"
+[ 82176.104] 	compiled for 1.10.6, module version = 1.0.0
+[ 82176.104] 	Module class: X.Org Server Extension
+[ 82176.104] 	ABI class: X.Org Server Extension, version 5.0
+[ 82176.104] (II) Loading extension SELinux
+[ 82176.104] (II) Loading extension MIT-SCREEN-SAVER
+[ 82176.104] (II) Loading extension XFree86-VidModeExtension
+[ 82176.104] (II) Loading extension XFree86-DGA
+[ 82176.104] (II) Loading extension DPMS
+[ 82176.104] (II) Loading extension XVideo
+[ 82176.104] (II) Loading extension XVideo-MotionCompensation
+[ 82176.104] (II) Loading extension X-Resource
+[ 82176.104] (II) LoadModule: "dbe"
+[ 82176.104] (II) Loading /usr/lib64/xorg/modules/extensions/libdbe.so
+[ 82176.104] (II) Module dbe: vendor="X.Org Foundation"
+[ 82176.104] 	compiled for 1.10.6, module version = 1.0.0
+[ 82176.104] 	Module class: X.Org Server Extension
+[ 82176.104] 	ABI class: X.Org Server Extension, version 5.0
+[ 82176.104] (II) Loading extension DOUBLE-BUFFER
+[ 82176.104] (II) LoadModule: "glx"
+[ 82176.104] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[ 82176.112] (II) Module glx: vendor="NVIDIA Corporation"
+[ 82176.112] 	compiled for 4.0.2, module version = 1.0.0
+[ 82176.112] 	Module class: X.Org Server Extension
+[ 82176.112] (II) NVIDIA GLX Module  304.43  Sun Aug 19 20:34:01 PDT 2012
+[ 82176.112] (II) Loading extension GLX
+[ 82176.112] (II) LoadModule: "record"
+[ 82176.112] (II) Loading /usr/lib64/xorg/modules/extensions/librecord.so
+[ 82176.112] (II) Module record: vendor="X.Org Foundation"
+[ 82176.112] 	compiled for 1.10.6, module version = 1.13.0
+[ 82176.112] 	Module class: X.Org Server Extension
+[ 82176.112] 	ABI class: X.Org Server Extension, version 5.0
+[ 82176.112] (II) Loading extension RECORD
+[ 82176.112] (II) LoadModule: "dri"
+[ 82176.113] (II) Loading /usr/lib64/xorg/modules/extensions/libdri.so
+[ 82176.113] (II) Module dri: vendor="X.Org Foundation"
+[ 82176.113] 	compiled for 1.10.6, module version = 1.0.0
+[ 82176.113] 	ABI class: X.Org Server Extension, version 5.0
+[ 82176.113] (II) Loading extension XFree86-DRI
+[ 82176.113] (II) LoadModule: "dri2"
+[ 82176.113] (II) Loading /usr/lib64/xorg/modules/extensions/libdri2.so
+[ 82176.113] (II) Module dri2: vendor="X.Org Foundation"
+[ 82176.113] 	compiled for 1.10.6, module version = 1.2.0
+[ 82176.113] 	ABI class: X.Org Server Extension, version 5.0
+[ 82176.113] (II) Loading extension DRI2
+[ 82176.113] (II) LoadModule: "nvidia"
+[ 82176.113] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[ 82176.113] (II) Module nvidia: vendor="NVIDIA Corporation"
+[ 82176.114] 	compiled for 4.0.2, module version = 1.0.0
+[ 82176.114] 	Module class: X.Org Video Driver
+[ 82176.114] (II) NVIDIA dlloader X Driver  304.43  Sun Aug 19 20:15:32 PDT 2012
+[ 82176.114] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[ 82176.114] (--) using VT number 7
 
-[ 81395.595] (II) Loading sub module "fb"
-[ 81395.595] (II) LoadModule: "fb"
-[ 81395.596] (II) Loading /usr/lib64/xorg/modules/libfb.so
-[ 81395.596] (II) Module fb: vendor="X.Org Foundation"
-[ 81395.596] 	compiled for 1.10.6, module version = 1.0.0
-[ 81395.596] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[ 81395.596] (II) Loading sub module "wfb"
-[ 81395.596] (II) LoadModule: "wfb"
-[ 81395.596] (II) Loading /usr/lib64/xorg/modules/libwfb.so
-[ 81395.596] (II) Module wfb: vendor="X.Org Foundation"
-[ 81395.596] 	compiled for 1.10.6, module version = 1.0.0
-[ 81395.596] 	ABI class: X.Org ANSI C Emulation, version 0.4
-[ 81395.596] (II) Loading sub module "ramdac"
-[ 81395.596] (II) LoadModule: "ramdac"
-[ 81395.596] (II) Module "ramdac" already built-in
-[ 81395.596] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
-[ 81395.596] (II) Loading /usr/lib64/xorg/modules/libwfb.so
-[ 81395.596] (II) Loading /usr/lib64/xorg/modules/libfb.so
-[ 81395.596] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
-[ 81395.596] (==) NVIDIA(0): RGB weight 888
-[ 81395.596] (==) NVIDIA(0): Default visual is TrueColor
-[ 81395.596] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
-[ 81395.597] (**) NVIDIA(0): Enabling 2D acceleration
-[ 81396.635] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
-[ 81396.635] (II) NVIDIA(GPU-0):     Vision stereo.
-[ 81396.701] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-1)) does not support NVIDIA 3D
-[ 81396.701] (II) NVIDIA(GPU-0):     Vision stereo.
-[ 81396.703] (II) NVIDIA(0): NVIDIA GPU GeForce 7600 GS (G73) at PCI:2:0:0 (GPU-0)
-[ 81396.703] (--) NVIDIA(0): Memory: 262144 kBytes
-[ 81396.703] (--) NVIDIA(0): VideoBIOS: 05.73.22.33.68
-[ 81396.703] (II) NVIDIA(0): Detected PCI Express Link width: 16X
-[ 81396.703] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
-[ 81396.703] (--) NVIDIA(0): Valid display device(s) on GeForce 7600 GS at PCI:2:0:0
-[ 81396.703] (--) NVIDIA(0):     CRT-0
-[ 81396.703] (--) NVIDIA(0):     CRT-1
-[ 81396.703] (--) NVIDIA(0):     TV-0
-[ 81396.703] (--) NVIDIA(0):     BenQ G2220HD (DFP-0) (connected)
-[ 81396.703] (--) NVIDIA(0):     BenQ G2220HD (DFP-1) (connected)
-[ 81396.703] (--) NVIDIA(0): CRT-0: 400.0 MHz maximum pixel clock
-[ 81396.703] (--) NVIDIA(0): CRT-1: 400.0 MHz maximum pixel clock
-[ 81396.703] (--) NVIDIA(0): TV-0: 400.0 MHz maximum pixel clock
-[ 81396.703] (--) NVIDIA(0): TV encoder: (null)
-[ 81396.703] (--) NVIDIA(0): BenQ G2220HD (DFP-0): 330.0 MHz maximum pixel clock
-[ 81396.703] (--) NVIDIA(0): BenQ G2220HD (DFP-0): Internal Dual Link TMDS
-[ 81396.703] (--) NVIDIA(0): BenQ G2220HD (DFP-1): 165.0 MHz maximum pixel clock
-[ 81396.703] (--) NVIDIA(0): BenQ G2220HD (DFP-1): Internal Single Link TMDS
-[ 81396.703] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
-[ 81396.703] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
-[ 81396.703] (**) NVIDIA(0):     been enabled on all display devices.)
-[ 81396.703] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
-[ 81396.703] (**) NVIDIA(0):     device BenQ G2220HD (DFP-1) (Using EDID frequencies has
-[ 81396.703] (**) NVIDIA(0):     been enabled on all display devices.)
-[ 81396.703] (WW) NVIDIA(0): No valid modes for "DFP-0:1920x1080.00,DFP-1:1920x1080.00";
-[ 81396.703] (WW) NVIDIA(0):     removing.
-[ 81396.703] (WW) NVIDIA(0): 
-[ 81396.703] (WW) NVIDIA(0): Unable to validate any modes; falling back to the default mode
-[ 81396.703] (WW) NVIDIA(0):     "nvidia-auto-select".
-[ 81396.703] (WW) NVIDIA(0): 
-[ 81396.703] (II) NVIDIA(0): Validated MetaModes:
-[ 81396.703] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
-[ 81396.703] (**) NVIDIA(0): Virtual screen size configured to be 3240 x 1920
-[ 81396.703] (WW) NVIDIA(0): Mode "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select" is
-[ 81396.703] (WW) NVIDIA(0):     larger than virtual size 3240 x 1920; discarding mode
-[ 81396.704] (EE) NVIDIA(0): Failure to construct a valid MetaMode list: no MetaModes
-[ 81396.704] (EE) NVIDIA(0):     remaining.
-[ 81396.704] (EE) NVIDIA(0):  *** Aborting ***
-[ 81396.704] (EE) NVIDIA(0): Failing initialization of X screen 0
-[ 81397.065] (II) UnloadModule: "nvidia"
-[ 81397.065] (II) Unloading nvidia
-[ 81397.065] (II) UnloadModule: "wfb"
-[ 81397.065] (II) Unloading wfb
-[ 81397.065] (II) UnloadModule: "fb"
-[ 81397.065] (II) Unloading fb
-[ 81397.065] (EE) Screen(s) found, but none have a usable configuration.
-[ 81397.065] 
+[ 82176.116] (II) Loading sub module "fb"
+[ 82176.116] (II) LoadModule: "fb"
+[ 82176.116] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[ 82176.116] (II) Module fb: vendor="X.Org Foundation"
+[ 82176.116] 	compiled for 1.10.6, module version = 1.0.0
+[ 82176.116] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 82176.116] (II) Loading sub module "wfb"
+[ 82176.116] (II) LoadModule: "wfb"
+[ 82176.116] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[ 82176.116] (II) Module wfb: vendor="X.Org Foundation"
+[ 82176.116] 	compiled for 1.10.6, module version = 1.0.0
+[ 82176.116] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 82176.116] (II) Loading sub module "ramdac"
+[ 82176.116] (II) LoadModule: "ramdac"
+[ 82176.116] (II) Module "ramdac" already built-in
+[ 82176.117] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[ 82176.117] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[ 82176.117] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[ 82176.117] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[ 82176.117] (==) NVIDIA(0): RGB weight 888
+[ 82176.117] (==) NVIDIA(0): Default visual is TrueColor
+[ 82176.117] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 82176.117] (**) NVIDIA(0): Enabling 2D acceleration
+[ 82177.159] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 82177.159] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 82177.230] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-1)) does not support NVIDIA 3D
+[ 82177.230] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 82177.232] (II) NVIDIA(0): NVIDIA GPU GeForce 7600 GS (G73) at PCI:2:0:0 (GPU-0)
+[ 82177.232] (--) NVIDIA(0): Memory: 262144 kBytes
+[ 82177.232] (--) NVIDIA(0): VideoBIOS: 05.73.22.33.68
+[ 82177.232] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[ 82177.232] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
+[ 82177.232] (--) NVIDIA(0): Valid display device(s) on GeForce 7600 GS at PCI:2:0:0
+[ 82177.232] (--) NVIDIA(0):     CRT-0
+[ 82177.232] (--) NVIDIA(0):     CRT-1
+[ 82177.232] (--) NVIDIA(0):     TV-0
+[ 82177.232] (--) NVIDIA(0):     BenQ G2220HD (DFP-0) (connected)
+[ 82177.232] (--) NVIDIA(0):     BenQ G2220HD (DFP-1) (connected)
+[ 82177.232] (--) NVIDIA(0): CRT-0: 400.0 MHz maximum pixel clock
+[ 82177.232] (--) NVIDIA(0): CRT-1: 400.0 MHz maximum pixel clock
+[ 82177.232] (--) NVIDIA(0): TV-0: 400.0 MHz maximum pixel clock
+[ 82177.232] (--) NVIDIA(0): TV encoder: (null)
+[ 82177.232] (--) NVIDIA(0): BenQ G2220HD (DFP-0): 330.0 MHz maximum pixel clock
+[ 82177.232] (--) NVIDIA(0): BenQ G2220HD (DFP-0): Internal Dual Link TMDS
+[ 82177.232] (--) NVIDIA(0): BenQ G2220HD (DFP-1): 165.0 MHz maximum pixel clock
+[ 82177.232] (--) NVIDIA(0): BenQ G2220HD (DFP-1): Internal Single Link TMDS
+[ 82177.232] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 82177.232] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 82177.232] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 82177.232] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 82177.232] (**) NVIDIA(0):     device BenQ G2220HD (DFP-1) (Using EDID frequencies has
+[ 82177.232] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 82177.232] (==) NVIDIA(0): 
+[ 82177.232] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[ 82177.232] (==) NVIDIA(0):     will be used as the requested mode.
+[ 82177.232] (==) NVIDIA(0): 
+[ 82177.232] (II) NVIDIA(0): Validated MetaModes:
+[ 82177.232] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
+[ 82177.232] (**) NVIDIA(0): Virtual screen size configured to be 3240 x 1920
+[ 82177.232] (WW) NVIDIA(0): Mode "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select" is
+[ 82177.232] (WW) NVIDIA(0):     larger than virtual size 3240 x 1920; discarding mode
+[ 82177.232] (EE) NVIDIA(0): Failure to construct a valid MetaMode list: no MetaModes
+[ 82177.232] (EE) NVIDIA(0):     remaining.
+[ 82177.232] (EE) NVIDIA(0):  *** Aborting ***
+[ 82177.232] (EE) NVIDIA(0): Failing initialization of X screen 0
+[ 82177.628] (II) UnloadModule: "nvidia"
+[ 82177.628] (II) Unloading nvidia
+[ 82177.628] (II) UnloadModule: "wfb"
+[ 82177.628] (II) Unloading wfb
+[ 82177.628] (II) UnloadModule: "fb"
+[ 82177.628] (II) Unloading fb
+[ 82177.628] (EE) Screen(s) found, but none have a usable configuration.
+[ 82177.628] 
 Fatal server error:
-[ 81397.065] no screens found
-[ 81397.065] 
+[ 82177.628] no screens found
+[ 82177.628] 
 Please consult the Scientific Linux support 
 	 at https://www.scientificlinux.org/maillists
  for help. 
-[ 81397.065] Please also check the log file at "/var/log/Xorg.0.log" for additional information.
-[ 81397.065] 
+[ 82177.628] Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[ 82177.628] 
