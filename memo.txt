@@ -140,5 +140,13 @@ we found that:
 
 So, Lets use {Rotation=270} in MetaModes
 
+==> It worked!!  ... it looks line twinview...
+[   375.070] (WW) NVIDIA(0): Option "Monitor0" is not used
+[   375.070] (WW) NVIDIA(0): Option "RightOf" is not used
 
+Now it's time to make all 3 of them work.
+
+uncommented
+    Device         "Device1"
+    Device         "Device0 (2nd)"
 
