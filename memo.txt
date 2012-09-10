@@ -100,5 +100,22 @@ Document on nvidia Metamodes
 http://us.download.nvidia.com/XFree86/Linux-x86/173.14.09/README/chapter-13.html
 
 
+[ 82729.251] (WW) NVIDIA(0): No valid modes for
+[ 82729.251] (WW) NVIDIA(0):     "1920x1080_60.00+0+0,1920x1080_60.00+1080+0,1920x1080_60.00+2160+0";
+[ 82729.251] (WW) NVIDIA(0):     removing.
+[ 82729.251] (WW) NVIDIA(0): 
+[ 82729.251] (WW) NVIDIA(0): Unable to validate any modes; falling back to the default mode
+[ 82729.251] (WW) NVIDIA(0):     "nvidia-auto-select".
+[ 82729.251] (WW) NVIDIA(0): 
+[ 82729.251] (II) NVIDIA(0): Validated MetaModes:
+[ 82729.251] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
+[ 82729.251] (**) NVIDIA(0): Virtual screen size configured to be 3240 x 1920
+[ 82729.251] (WW) NVIDIA(0): Mode "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select" is
+[ 82729.251] (WW) NVIDIA(0):     larger than virtual size 3240 x 1920; discarding mode
+[ 82729.251] (EE) NVIDIA(0): Failure to construct a valid MetaMode list: no MetaModes
+[ 82729.251] (EE) NVIDIA(0):     remaining.
+[ 82729.251] (EE) NVIDIA(0):  *** Aborting ***
+[ 82729.251] (EE) NVIDIA(0): Failing initialization of X screen 0
 
+http://dev.ariel-networks.com/Members/matsuyama/dual-monitors-with-nvidia-card/
 
