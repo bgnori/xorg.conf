@@ -152,3 +152,8 @@ uncommented
 
 commented 
     Device         "Device0 (2nd)"
+
+
+c) xinerama でVirtual x=2160 y= 1920 and x=1080,y=1920してみる
+
+
