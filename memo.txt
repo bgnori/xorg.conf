@@ -96,4 +96,9 @@ looks like:
   mode is wrong
   what is metamode?
 
+Document on nvidia Metamodes
+http://us.download.nvidia.com/XFree86/Linux-x86/173.14.09/README/chapter-13.html
+
+
+
 
