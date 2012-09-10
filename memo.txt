@@ -23,5 +23,8 @@ b) Virtual x=3240 y= 1920 を３つのdisplayで表示するように指示し�
     => Section DeviceでOptionでmonitorを設定する。"monitor-"の後に，さっきxrandrで調べた接続情報を書く。その後に識別子。
     Option      "monitor-DVI-I_2/analog" "Monitor1"
 
+ => うまくいかない。?
+
+ftp://download.nvidia.com/XFree86/Linux-x86/169.04/README/index.html
 
 
