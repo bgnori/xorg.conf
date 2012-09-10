@@ -1,0 +1,1 @@
+/usr/bin/nvidia-xconfig -a --multigpu=Auto --randr-rotation --separate-x-screens --xinerama 
