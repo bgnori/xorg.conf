@@ -155,5 +155,6 @@ commented
 
 
 c) xinerama でVirtual x=2160 y= 1920 and x=1080,y=1920してみる
+ option "rotate" にはfbが必要説。fbdevのmanを参照
 
 
