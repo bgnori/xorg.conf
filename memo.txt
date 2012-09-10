@@ -27,4 +27,13 @@ b) Virtual x=3240 y= 1920 を３つのdisplayで表示するように指示し�
 
 ftp://download.nvidia.com/XFree86/Linux-x86/169.04/README/index.html
 
+[ 79391.221] (II) NVIDIA(0): Validated MetaModes:
+[ 79391.221] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select"
+[ 79391.221] (**) NVIDIA(0): Virtual screen size configured to be 3240 x 1920
+[ 79391.221] (WW) NVIDIA(0): Mode "DFP-0:nvidia-auto-select,DFP-1:nvidia-auto-select" is
+[ 79391.221] (WW) NVIDIA(0):     larger than virtual size 3240 x 1920; discarding mode
+[ 79391.221] (EE) NVIDIA(0): Failure to construct a valid MetaMode list: no MetaModes
+[ 79391.221] (EE) NVIDIA(0):     remaining.
+[ 79391.221] (EE) NVIDIA(0):  *** Aborting ***
+[ 79391.221] (EE) NVIDIA(0): Failing initialization of X screen 0
 
