@@ -1,1 +1,27 @@
-/usr/bin/nvidia-xconfig -a --multigpu=Auto --randr-rotation --separate-x-screens --xinerama 
+困ったらGoogleよりもman!! Google検索してもあまりいい情報はないです。
+
+http://www.misho-web.com/diary/Comment/20090516
+
+# /usr/bin/nvidia-xconfig -a --multigpu=Auto --randr-rotation --separate-x-screens --xinerama 
+
+1つのDisplayは1920x1080
+
+
+作戦：
+a) nvidia-xconfigとか、GUIのツールでがんばる
+ => 画面は表示されるが、rotate + xineramaができない
+
+
+
+b) Virtual x=3240 y= 1920 を３つのdisplayで表示するように指示してみる
+    VScreenに対してMonitorとDeviceを３つ指定する
+
+    Section Monitorで、Monitorの物理的位置関係を指定する。
+    Option       "RightOf" "Monitor0"  # ← Key point!!
+
+    MonitorとDeviceのmappingはどう指定したらよいのだろう？
+    => Section DeviceでOptionでmonitorを設定する。"monitor-"の後に，さっきxrandrで調べた接続情報を書く。その後に識別子。
+    Option      "monitor-DVI-I_2/analog" "Monitor1"
+
+
+
