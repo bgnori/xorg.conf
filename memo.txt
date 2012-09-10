@@ -37,3 +37,15 @@ ftp://download.nvidia.com/XFree86/Linux-x86/169.04/README/index.html
 [ 79391.221] (EE) NVIDIA(0):  *** Aborting ***
 [ 79391.221] (EE) NVIDIA(0): Failing initialization of X screen 0
 
+
+Makefileを書いた。
+ makeでXorg.0.logをcwdにコピーする
+ make installでcwdのxorg.conf /etc/X11/xorg.confをコピーする
+ git addしたのは失敗かも・・・
+
+# 1080x1920 @ 60.00 Hz (GTF) hsync: 119.22 kHz; pclk: 178.35 MHz
+Modeline "1080x1920_60.00"  178.35  1080 1168 1288 1496  1920 1921 1924 1987  -HSync +Vsync
+# 1920x1080 @ 60.00 Hz (GTF) hsync: 67.08 kHz; pclk: 172.80 MHz
+Modeline "1920x1080_60.00"  172.80  1920 2040 2248 2576  1080 1081 1084 1118  -HSync +Vsync
+
+

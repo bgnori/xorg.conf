@@ -1,0 +1,360 @@
+[ 79652.152] 
+X.Org X Server 1.10.6
+Release Date: 2012-02-10
+[ 79652.152] X Protocol Version 11, Revision 0
+[ 79652.152] Build Operating System: sl6 2.6.32-220.13.1.el6.x86_64 
+[ 79652.152] Current Operating System: Linux akagi 2.6.34.13 #1 SMP Sat Sep 8 22:21:50 JST 2012 x86_64
+[ 79652.153] Kernel command line: ro root=UUID=62790101-b758-48a1-8e5a-804724f52d03 rd_MD_UUID=87e89f9b:c972bace:06e59257:9ac37b5a rd_MD_UUID=6855c6eb:21776911:f811fb26:5a41d52d rd_LVM_LV=vg_mutsu/LogVolSwap rd_NO_LUKS rd_NO_DM LANG=en_US.UTF-8 SYSFONT=latarcyrheb-sun16 KEYBOARDTYPE=pc KEYTABLE=us nomodeset crashkernel=128M
+[ 79652.153] Build Date: 20 June 2012  01:28:56PM
+[ 79652.153] Build ID: xorg-x11-server 1.10.6-1.sl6 
+[ 79652.154] Current version of pixman: 0.18.4
+[ 79652.154] 	Before reporting problems, check https://www.scientificlinux.org/maillists
+	to make sure that you have the latest version.
+[ 79652.154] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 79652.155] (==) Log file: "/var/log/Xorg.0.log", Time: Mon Sep 10 18:21:06 2012
+[ 79652.155] (==) Using config file: "/etc/X11/xorg.conf"
+[ 79652.156] (==) ServerLayout "Layout0"
+[ 79652.156] (**) |-->Screen "VScreen" (0)
+[ 79652.156] (**) |   |-->Monitor "Monitor2"
+[ 79652.156] (**) |   |-->Device "Device1"
+[ 79652.156] (**) |-->Input Device "Keyboard0"
+[ 79652.156] (**) |-->Input Device "Mouse0"
+[ 79652.156] (**) Option "DontZoom" "true"
+[ 79652.156] (**) Option "Xinerama" "false"
+[ 79652.156] (==) Automatically adding devices
+[ 79652.156] (==) Automatically enabling devices
+[ 79652.156] (**) FontPath set to:
+	/usr/share/fonts/default/Type1,
+	catalogue:/etc/X11/fontpath.d,
+	built-ins
+[ 79652.156] (==) ModulePath set to "/usr/lib64/xorg/modules"
+[ 79652.156] (**) Extension "Composite" is disabled
+[ 79652.156] (WW) Hotplugging is on, devices using drivers 'kbd', 'mouse' or 'vmmouse' will be disabled.
+[ 79652.156] (WW) Disabling Keyboard0
+[ 79652.156] (WW) Disabling Mouse0
+[ 79652.156] (II) Loader magic: 0x7d6d80
+[ 79652.156] (II) Module ABI versions:
+[ 79652.156] 	X.Org ANSI C Emulation: 0.4
+[ 79652.156] 	X.Org Video Driver: 10.0
+[ 79652.156] 	X.Org XInput driver : 12.2
+[ 79652.156] 	X.Org Server Extension : 5.0
+[ 79652.158] (--) PCI:*(0:2:0:0) 10de:0392:107d:2a52 rev 161, Mem @ 0xc3000000/16777216, 0xd0000000/268435456, 0xc2000000/16777216, I/O @ 0x00003000/128, BIOS @ 0x????????/131072
+[ 79652.158] (--) PCI: (0:3:0:0) 10de:0392:1462:0415 rev 161, Mem @ 0xc1000000/16777216, 0xe0000000/268435456, 0xc0000000/16777216, I/O @ 0x00002000/128, BIOS @ 0x????????/65536
+[ 79652.158] (II) LoadModule: "extmod"
+[ 79652.158] (II) Loading /usr/lib64/xorg/modules/extensions/libextmod.so
+[ 79652.159] (II) Module extmod: vendor="X.Org Foundation"
+[ 79652.159] 	compiled for 1.10.6, module version = 1.0.0
+[ 79652.159] 	Module class: X.Org Server Extension
+[ 79652.159] 	ABI class: X.Org Server Extension, version 5.0
+[ 79652.159] (II) Loading extension SELinux
+[ 79652.159] (II) Loading extension MIT-SCREEN-SAVER
+[ 79652.159] (II) Loading extension XFree86-VidModeExtension
+[ 79652.159] (II) Loading extension XFree86-DGA
+[ 79652.159] (II) Loading extension DPMS
+[ 79652.159] (II) Loading extension XVideo
+[ 79652.159] (II) Loading extension XVideo-MotionCompensation
+[ 79652.159] (II) Loading extension X-Resource
+[ 79652.159] (II) LoadModule: "dbe"
+[ 79652.159] (II) Loading /usr/lib64/xorg/modules/extensions/libdbe.so
+[ 79652.159] (II) Module dbe: vendor="X.Org Foundation"
+[ 79652.159] 	compiled for 1.10.6, module version = 1.0.0
+[ 79652.159] 	Module class: X.Org Server Extension
+[ 79652.159] 	ABI class: X.Org Server Extension, version 5.0
+[ 79652.159] (II) Loading extension DOUBLE-BUFFER
+[ 79652.159] (II) LoadModule: "glx"
+[ 79652.159] (II) Loading /usr/lib64/xorg/modules/extensions/libglx.so
+[ 79652.169] (II) Module glx: vendor="NVIDIA Corporation"
+[ 79652.169] 	compiled for 4.0.2, module version = 1.0.0
+[ 79652.169] 	Module class: X.Org Server Extension
+[ 79652.169] (II) NVIDIA GLX Module  304.43  Sun Aug 19 20:34:01 PDT 2012
+[ 79652.169] (II) Loading extension GLX
+[ 79652.169] (II) LoadModule: "record"
+[ 79652.170] (II) Loading /usr/lib64/xorg/modules/extensions/librecord.so
+[ 79652.170] (II) Module record: vendor="X.Org Foundation"
+[ 79652.170] 	compiled for 1.10.6, module version = 1.13.0
+[ 79652.170] 	Module class: X.Org Server Extension
+[ 79652.170] 	ABI class: X.Org Server Extension, version 5.0
+[ 79652.170] (II) Loading extension RECORD
+[ 79652.170] (II) LoadModule: "dri"
+[ 79652.170] (II) Loading /usr/lib64/xorg/modules/extensions/libdri.so
+[ 79652.170] (II) Module dri: vendor="X.Org Foundation"
+[ 79652.170] 	compiled for 1.10.6, module version = 1.0.0
+[ 79652.170] 	ABI class: X.Org Server Extension, version 5.0
+[ 79652.170] (II) Loading extension XFree86-DRI
+[ 79652.170] (II) LoadModule: "dri2"
+[ 79652.170] (II) Loading /usr/lib64/xorg/modules/extensions/libdri2.so
+[ 79652.170] (II) Module dri2: vendor="X.Org Foundation"
+[ 79652.170] 	compiled for 1.10.6, module version = 1.2.0
+[ 79652.170] 	ABI class: X.Org Server Extension, version 5.0
+[ 79652.170] (II) Loading extension DRI2
+[ 79652.170] (II) LoadModule: "nvidia"
+[ 79652.171] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[ 79652.171] (II) Module nvidia: vendor="NVIDIA Corporation"
+[ 79652.171] 	compiled for 4.0.2, module version = 1.0.0
+[ 79652.171] 	Module class: X.Org Video Driver
+[ 79652.171] (II) NVIDIA dlloader X Driver  304.43  Sun Aug 19 20:15:32 PDT 2012
+[ 79652.171] (II) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[ 79652.171] (--) using VT number 7
+
+[ 79652.174] (II) Loading sub module "fb"
+[ 79652.174] (II) LoadModule: "fb"
+[ 79652.175] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[ 79652.175] (II) Module fb: vendor="X.Org Foundation"
+[ 79652.175] 	compiled for 1.10.6, module version = 1.0.0
+[ 79652.175] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 79652.175] (II) Loading sub module "wfb"
+[ 79652.175] (II) LoadModule: "wfb"
+[ 79652.175] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[ 79652.175] (II) Module wfb: vendor="X.Org Foundation"
+[ 79652.175] 	compiled for 1.10.6, module version = 1.0.0
+[ 79652.175] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 79652.175] (II) Loading sub module "ramdac"
+[ 79652.175] (II) LoadModule: "ramdac"
+[ 79652.175] (II) Module "ramdac" already built-in
+[ 79652.175] (II) Loading /usr/lib64/xorg/modules/drivers/nvidia_drv.so
+[ 79652.175] (II) Loading /usr/lib64/xorg/modules/libwfb.so
+[ 79652.175] (II) Loading /usr/lib64/xorg/modules/libfb.so
+[ 79652.176] (**) NVIDIA(0): Depth 24, (--) framebuffer bpp 32
+[ 79652.176] (==) NVIDIA(0): RGB weight 888
+[ 79652.176] (==) NVIDIA(0): Default visual is TrueColor
+[ 79652.176] (==) NVIDIA(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 79652.176] (**) NVIDIA(0): Enabling 2D acceleration
+[ 79653.200] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79653.200] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 79653.202] (II) NVIDIA(0): NVIDIA GPU GeForce 7600 GS (G73) at PCI:3:0:0 (GPU-0)
+[ 79653.202] (--) NVIDIA(0): Memory: 262144 kBytes
+[ 79653.202] (--) NVIDIA(0): VideoBIOS: 05.73.22.51.00
+[ 79653.202] (II) NVIDIA(0): Detected PCI Express Link width: 16X
+[ 79653.202] (--) NVIDIA(0): Interlaced video modes are supported on this GPU
+[ 79653.202] (--) NVIDIA(0): Valid display device(s) on GeForce 7600 GS at PCI:3:0:0
+[ 79653.202] (--) NVIDIA(0):     CRT-0
+[ 79653.202] (--) NVIDIA(0):     CRT-1
+[ 79653.202] (--) NVIDIA(0):     TV-0
+[ 79653.202] (--) NVIDIA(0):     BenQ G2220HD (DFP-0) (connected)
+[ 79653.202] (--) NVIDIA(0):     DFP-1
+[ 79653.202] (--) NVIDIA(0): CRT-0: 400.0 MHz maximum pixel clock
+[ 79653.202] (--) NVIDIA(0): CRT-1: 400.0 MHz maximum pixel clock
+[ 79653.202] (--) NVIDIA(0): TV-0: 400.0 MHz maximum pixel clock
+[ 79653.202] (--) NVIDIA(0): TV encoder: (null)
+[ 79653.202] (--) NVIDIA(0): BenQ G2220HD (DFP-0): 330.0 MHz maximum pixel clock
+[ 79653.202] (--) NVIDIA(0): BenQ G2220HD (DFP-0): Internal Dual Link TMDS
+[ 79653.202] (--) NVIDIA(0): DFP-1: 330.0 MHz maximum pixel clock
+[ 79653.202] (--) NVIDIA(0): DFP-1: Internal Single Link TMDS
+[ 79653.202] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 79653.202] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 79653.202] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 79653.202] (==) NVIDIA(0): 
+[ 79653.202] (==) NVIDIA(0): No modes were requested; the default mode "nvidia-auto-select"
+[ 79653.202] (==) NVIDIA(0):     will be used as the requested mode.
+[ 79653.202] (==) NVIDIA(0): 
+[ 79653.202] (II) NVIDIA(0): Validated MetaModes:
+[ 79653.202] (II) NVIDIA(0):     "DFP-0:nvidia-auto-select"
+[ 79653.202] (**) NVIDIA(0): Virtual screen size configured to be 3240 x 1920
+[ 79653.203] (--) NVIDIA(0): DPI set to (101, 101); computed from "UseEdidDpi" X config
+[ 79653.203] (--) NVIDIA(0):     option
+[ 79653.203] (--) Depth 24 pixmap format is 32 bpp
+[ 79653.784] (II) NVIDIA(GPU-1): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79653.784] (II) NVIDIA(GPU-1):     Vision stereo.
+[ 79653.859] (II) NVIDIA(GPU-1): Display (BenQ G2220HD (DFP-1)) does not support NVIDIA 3D
+[ 79653.859] (II) NVIDIA(GPU-1):     Vision stereo.
+[ 79653.862] (II) NVIDIA(GPU-1): NVIDIA GPU GeForce 7600 GS (G73) at PCI:2:0:0 (GPU-1)
+[ 79653.862] (--) NVIDIA(GPU-1): Memory: 262144 kBytes
+[ 79653.862] (--) NVIDIA(GPU-1): VideoBIOS: 05.73.22.33.68
+[ 79653.862] (II) NVIDIA(GPU-1): Detected PCI Express Link width: 16X
+[ 79653.862] (--) NVIDIA(GPU-1): Interlaced video modes are supported on this GPU
+[ 79653.862] (--) NVIDIA(GPU-1): Valid display device(s) on GeForce 7600 GS at PCI:2:0:0
+[ 79653.862] (--) NVIDIA(GPU-1):     CRT-0
+[ 79653.862] (--) NVIDIA(GPU-1):     CRT-1
+[ 79653.862] (--) NVIDIA(GPU-1):     TV-0
+[ 79653.862] (--) NVIDIA(GPU-1):     BenQ G2220HD (DFP-0) (connected)
+[ 79653.862] (--) NVIDIA(GPU-1):     BenQ G2220HD (DFP-1) (connected)
+[ 79653.862] (--) NVIDIA(GPU-1): CRT-0: 400.0 MHz maximum pixel clock
+[ 79653.862] (--) NVIDIA(GPU-1): CRT-1: 400.0 MHz maximum pixel clock
+[ 79653.862] (--) NVIDIA(GPU-1): TV-0: 400.0 MHz maximum pixel clock
+[ 79653.862] (--) NVIDIA(GPU-1): TV encoder: (null)
+[ 79653.862] (--) NVIDIA(GPU-1): BenQ G2220HD (DFP-0): 330.0 MHz maximum pixel clock
+[ 79653.862] (--) NVIDIA(GPU-1): BenQ G2220HD (DFP-0): Internal Dual Link TMDS
+[ 79653.862] (--) NVIDIA(GPU-1): BenQ G2220HD (DFP-1): 165.0 MHz maximum pixel clock
+[ 79653.862] (--) NVIDIA(GPU-1): BenQ G2220HD (DFP-1): Internal Single Link TMDS
+[ 79653.877] (II) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[ 79653.877] (II) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[ 79653.877] (II) NVIDIA(0):     configuration option may not be set correctly.  When the
+[ 79653.877] (II) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[ 79653.877] (II) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[ 79653.877] (II) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[ 79653.877] (II) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[ 79653.877] (II) NVIDIA(0):     Config Options in the README.
+[ 79653.877] (II) NVIDIA(0): Setting mode "DFP-0:nvidia-auto-select"
+[ 79654.043] (II) Loading extension NV-GLX
+[ 79654.075] (==) NVIDIA(0): Disabling shared memory pixmaps
+[ 79654.076] (==) NVIDIA(0): Backing store disabled
+[ 79654.076] (==) NVIDIA(0): Silken mouse enabled
+[ 79654.076] (**) NVIDIA(0): DPMS enabled
+[ 79654.076] (II) Loading extension NV-CONTROL
+[ 79654.076] (II) Loading extension XINERAMA
+[ 79654.076] (WW) NVIDIA(0): Option "Monitor2" is not used
+[ 79654.076] (WW) NVIDIA(0): Option "BenQ G2220HD (DFP-0)" is not used
+[ 79654.076] (WW) NVIDIA(0): Option "RightOf" is not used
+[ 79654.076] (WW) NVIDIA(0): Option "Rotate" is not used
+[ 79654.076] (II) Loading sub module "dri2"
+[ 79654.076] (II) LoadModule: "dri2"
+[ 79654.076] (II) Loading /usr/lib64/xorg/modules/extensions/libdri2.so
+[ 79654.076] (II) Module dri2: vendor="X.Org Foundation"
+[ 79654.076] 	compiled for 1.10.6, module version = 1.2.0
+[ 79654.076] 	ABI class: X.Org Server Extension, version 5.0
+[ 79654.076] (II) NVIDIA(0): [DRI2] Setup complete
+[ 79654.076] (II) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[ 79654.076] (--) RandR disabled
+[ 79654.076] (II) Initializing built-in extension Generic Event Extension
+[ 79654.076] (II) Initializing built-in extension SHAPE
+[ 79654.076] (II) Initializing built-in extension MIT-SHM
+[ 79654.076] (II) Initializing built-in extension XInputExtension
+[ 79654.076] (II) Initializing built-in extension XTEST
+[ 79654.076] (II) Initializing built-in extension BIG-REQUESTS
+[ 79654.076] (II) Initializing built-in extension SYNC
+[ 79654.076] (II) Initializing built-in extension XKEYBOARD
+[ 79654.076] (II) Initializing built-in extension XC-MISC
+[ 79654.076] (II) Initializing built-in extension XINERAMA
+[ 79654.076] (II) Initializing built-in extension XFIXES
+[ 79654.076] (II) Initializing built-in extension RENDER
+[ 79654.076] (II) Initializing built-in extension RANDR
+[ 79654.076] (II) Initializing built-in extension COMPOSITE
+[ 79654.076] (II) Initializing built-in extension DAMAGE
+[ 79654.077] (II) SELinux: Disabled by boolean
+[ 79654.078] (II) Initializing extension GLX
+[ 79654.141] (II) config/hal: Adding input device Topre Corporation HHKB Professional
+[ 79654.141] (II) LoadModule: "evdev"
+[ 79654.141] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.141] (II) Module evdev: vendor="X.Org Foundation"
+[ 79654.141] 	compiled for 1.10.4, module version = 2.6.0
+[ 79654.141] 	Module class: X.Org XInput Driver
+[ 79654.141] 	ABI class: X.Org XInput driver, version 12.2
+[ 79654.141] (II) Using input driver 'evdev' for 'Topre Corporation HHKB Professional'
+[ 79654.141] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.141] (**) Topre Corporation HHKB Professional: always reports core events
+[ 79654.141] (**) Topre Corporation HHKB Professional: Device: "/dev/input/event5"
+[ 79654.149] (--) Topre Corporation HHKB Professional: Found keys
+[ 79654.149] (II) Topre Corporation HHKB Professional: Configuring as keyboard
+[ 79654.149] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_853_100_noserial_if0_logicaldev_input"
+[ 79654.149] (II) XINPUT: Adding extended input device "Topre Corporation HHKB Professional" (type: KEYBOARD)
+[ 79654.149] (**) Option "xkb_rules" "evdev"
+[ 79654.150] (**) Option "xkb_model" "pc105+inet"
+[ 79654.150] (**) Option "xkb_layout" "us"
+[ 79654.150] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[ 79654.198] (II) config/hal: Adding input device Logitech USB Receiver
+[ 79654.198] (II) Using input driver 'evdev' for 'Logitech USB Receiver'
+[ 79654.198] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.198] (**) Logitech USB Receiver: always reports core events
+[ 79654.198] (**) Logitech USB Receiver: Device: "/dev/input/event4"
+[ 79654.205] (--) Logitech USB Receiver: Found 1 mouse buttons
+[ 79654.205] (--) Logitech USB Receiver: Found scroll wheel(s)
+[ 79654.205] (--) Logitech USB Receiver: Found relative axes
+[ 79654.205] (--) Logitech USB Receiver: Found absolute axes
+[ 79654.205] (--) Logitech USB Receiver: Found keys
+[ 79654.205] (II) Logitech USB Receiver: Configuring as mouse
+[ 79654.205] (II) Logitech USB Receiver: Configuring as keyboard
+[ 79654.205] (II) Logitech USB Receiver: Adding scrollwheel support
+[ 79654.205] (**) Logitech USB Receiver: YAxisMapping: buttons 4 and 5
+[ 79654.205] (**) Logitech USB Receiver: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 79654.206] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_46d_c525_noserial_if1_logicaldev_input"
+[ 79654.206] (II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: KEYBOARD)
+[ 79654.206] (**) Option "xkb_rules" "evdev"
+[ 79654.206] (**) Option "xkb_model" "pc105+inet"
+[ 79654.206] (**) Option "xkb_layout" "us"
+[ 79654.206] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[ 79654.206] (EE) Logitech USB Receiver: failed to initialize for relative axes.
+[ 79654.206] (II) Logitech USB Receiver: initialized for absolute axes.
+[ 79654.206] (**) Logitech USB Receiver: (accel) keeping acceleration scheme 1
+[ 79654.206] (**) Logitech USB Receiver: (accel) acceleration profile 0
+[ 79654.206] (**) Logitech USB Receiver: (accel) acceleration factor: 2.000
+[ 79654.206] (**) Logitech USB Receiver: (accel) acceleration threshold: 4
+[ 79654.213] (II) config/hal: Adding input device Sleep Button
+[ 79654.213] (II) Using input driver 'evdev' for 'Sleep Button'
+[ 79654.213] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.213] (**) Sleep Button: always reports core events
+[ 79654.213] (**) Sleep Button: Device: "/dev/input/event0"
+[ 79654.221] (--) Sleep Button: Found keys
+[ 79654.221] (II) Sleep Button: Configuring as keyboard
+[ 79654.221] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input_0"
+[ 79654.221] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD)
+[ 79654.221] (**) Option "xkb_rules" "evdev"
+[ 79654.221] (**) Option "xkb_model" "pc105+inet"
+[ 79654.221] (**) Option "xkb_layout" "us"
+[ 79654.221] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[ 79654.228] (II) config/hal: Adding input device Power Button
+[ 79654.228] (II) Using input driver 'evdev' for 'Power Button'
+[ 79654.228] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.228] (**) Power Button: always reports core events
+[ 79654.228] (**) Power Button: Device: "/dev/input/event1"
+[ 79654.232] (--) Power Button: Found keys
+[ 79654.232] (II) Power Button: Configuring as keyboard
+[ 79654.232] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/computer_logicaldev_input"
+[ 79654.232] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD)
+[ 79654.232] (**) Option "xkb_rules" "evdev"
+[ 79654.232] (**) Option "xkb_model" "pc105+inet"
+[ 79654.232] (**) Option "xkb_layout" "us"
+[ 79654.232] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[ 79654.237] (II) config/hal: Adding input device Logitech USB Receiver
+[ 79654.237] (II) Using input driver 'evdev' for 'Logitech USB Receiver'
+[ 79654.237] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.237] (**) Logitech USB Receiver: always reports core events
+[ 79654.237] (**) Logitech USB Receiver: Device: "/dev/input/event3"
+[ 79654.241] (--) Logitech USB Receiver: Found 20 mouse buttons
+[ 79654.241] (--) Logitech USB Receiver: Found scroll wheel(s)
+[ 79654.241] (--) Logitech USB Receiver: Found relative axes
+[ 79654.241] (--) Logitech USB Receiver: Found x and y relative axes
+[ 79654.241] (II) Logitech USB Receiver: Configuring as mouse
+[ 79654.241] (II) Logitech USB Receiver: Adding scrollwheel support
+[ 79654.241] (**) Logitech USB Receiver: YAxisMapping: buttons 4 and 5
+[ 79654.241] (**) Logitech USB Receiver: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 79654.241] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_46d_c525_noserial_if0_logicaldev_input"
+[ 79654.241] (II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: MOUSE)
+[ 79654.241] (II) Logitech USB Receiver: initialized for relative axes.
+[ 79654.241] (**) Logitech USB Receiver: (accel) keeping acceleration scheme 1
+[ 79654.241] (**) Logitech USB Receiver: (accel) acceleration profile 0
+[ 79654.241] (**) Logitech USB Receiver: (accel) acceleration factor: 2.000
+[ 79654.241] (**) Logitech USB Receiver: (accel) acceleration threshold: 4
+[ 79654.246] (II) config/hal: Adding input device Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A
+[ 79654.246] (II) Using input driver 'evdev' for 'Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A'
+[ 79654.246] (II) Loading /usr/lib64/xorg/modules/input/evdev_drv.so
+[ 79654.246] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: always reports core events
+[ 79654.246] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Device: "/dev/input/event2"
+[ 79654.250] (--) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Found 9 mouse buttons
+[ 79654.250] (--) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Found scroll wheel(s)
+[ 79654.250] (--) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Found relative axes
+[ 79654.250] (--) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Found x and y relative axes
+[ 79654.250] (II) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Configuring as mouse
+[ 79654.250] (II) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: Adding scrollwheel support
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: YAxisMapping: buttons 4 and 5
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 79654.250] (**) Option "config_info" "hal:/org/freedesktop/Hal/devices/usb_device_45e_59_noserial_if0_logicaldev_input"
+[ 79654.250] (II) XINPUT: Adding extended input device "Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A" (type: MOUSE)
+[ 79654.250] (II) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: initialized for relative axes.
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: (accel) keeping acceleration scheme 1
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: (accel) acceleration profile 0
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: (accel) acceleration factor: 2.000
+[ 79654.250] (**) Microsoft Microsoft Wireless Intellimouse Explorer® 1.0A: (accel) acceleration threshold: 4
+[ 79654.621] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79654.621] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 79654.621] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 79654.621] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 79654.621] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 79654.761] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79654.761] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 79654.761] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 79654.761] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 79654.761] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 79654.900] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79654.900] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 79654.900] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 79654.900] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 79654.900] (**) NVIDIA(0):     been enabled on all display devices.)
+[ 79654.933] (II) NVIDIA(0): Setting mode "NULL"
+[ 79654.991] (II) NVIDIA(0): Setting mode "VGA-1: nvidia-auto-select @1080x1920 +0+0 {Rotation=270}"
+[ 79655.499] (II) NVIDIA(GPU-0): Display (BenQ G2220HD (DFP-0)) does not support NVIDIA 3D
+[ 79655.499] (II) NVIDIA(GPU-0):     Vision stereo.
+[ 79655.499] (**) NVIDIA(0): Using HorizSync/VertRefresh ranges from the EDID for display
+[ 79655.499] (**) NVIDIA(0):     device BenQ G2220HD (DFP-0) (Using EDID frequencies has
+[ 79655.499] (**) NVIDIA(0):     been enabled on all display devices.)
