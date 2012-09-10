@@ -118,4 +118,27 @@ http://us.download.nvidia.com/XFree86/Linux-x86/173.14.09/README/chapter-13.html
 [ 82729.251] (EE) NVIDIA(0): Failing initialization of X screen 0
 
 http://dev.ariel-networks.com/Members/matsuyama/dual-monitors-with-nvidia-card/
+        
+with Virtual        5760 1080 #very stupid wide!!!
+we found that:
+
+[ 83465.595] (WW) NVIDIA(0): Option "RandRRotation" is not used
+[ 83465.595] (WW) NVIDIA(0): Option "Rotate" is not used
+[ 83465.595] (WW) NVIDIA(0): Option "Monitor0" is not used
+[ 83465.595] (WW) NVIDIA(0): Option "BenQ G2220HD (DFP-0)" is not used
+[ 83465.595] (WW) NVIDIA(0): Option "RightOf" is not used
+
+[ 83520.834] (II) NVIDIA(0): Setting mode "DVI-I-1: 1920x1080_60 @1920x1080 +0+0, VGA-1: 1920x1080_60 @1920x1080 +2160+0"
+[ 83521.142] (WW) NVIDIA(0): Panning domain extends beyond virtual height; clamping mode
+[ 83521.142] (WW) NVIDIA(0):     "nvidia-auto-select@1080x1920+0+0" to virtual screen
+[ 83521.181] (II) NVIDIA(0): Setting mode "DVI-I-1: nvidia-auto-select @1080x1920 +0+-840 {Rotation=270}, VGA-1: 1920x1080_60 @1920x1080 +2160+0"
+[ 83521.495] (WW) NVIDIA(0): Panning domain extends beyond virtual height; clamping mode
+[ 83521.495] (WW) NVIDIA(0):     "nvidia-auto-select@1080x1920+0+0" to virtual screen
+[ 83521.495] (WW) NVIDIA(0): Panning domain extends beyond virtual height; clamping mode
+[ 83521.495] (WW) NVIDIA(0):     "nvidia-auto-select@1080x1920+1080+0" to virtual screen
+[ 83521.545] (II) NVIDIA(0): Setting mode "DVI-I-1: nvidia-auto-select @1080x1920 +0+-840 {Rotation=270}, VGA-1: nvidia-auto-select @1080x1920 +1080+-840 {Rotation=270}"
+
+So, Lets use {Rotation=270} in MetaModes
+
+
 
